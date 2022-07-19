@@ -5,12 +5,14 @@
   "main": "classify.js",
   "type": "module",
   "scripts": {
-    "nat:stem": "node stemming.js"
+    "nat:stem": "node stemming.js",
+    "brain:train": "node brainclassify.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "brain.js": "^2.0.0-beta.15",
     "natural": "^5.2.3"
   }
 }
