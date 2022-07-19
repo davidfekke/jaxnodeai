@@ -1,0 +1,16 @@
+{
+  "name": "jaxnodeai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "classify.js",
+  "type": "module",
+  "scripts": {
+    "nat:stem": "node stemming.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "natural": "^5.2.3"
+  }
+}
