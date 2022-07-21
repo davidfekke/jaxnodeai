@@ -6,12 +6,18 @@
   "type": "module",
   "scripts": {
     "nat:stem": "node stemming.js",
-    "brain:train": "node brainclassify.js"
+    "brain:train": "node brainclassify.js",
+    "nat:example": "node naturalclassify.js",
+    "tf:example": "node tensorflow.js",
+    "nat:train": "node trainexample/training.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@tensorflow/tfjs": "^3.18.0",
+    "@tensorflow/tfjs-node": "^3.18.0",
+    "@tensorflow/tfjs-node-gpu": "^3.18.0",
     "brain.js": "^2.0.0-beta.15",
     "natural": "^5.2.3"
   }
